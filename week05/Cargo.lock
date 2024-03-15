@@ -1482,6 +1482,8 @@ dependencies = [
  "openssl",
  "rusoto_core",
  "rusoto_dynamodb",
+ "serde",
+ "serde_derive",
  "serde_json",
  "tokio",
 ]
