@@ -1,0 +1,10 @@
+/workspaces/ds655_ids721_miniproject05/week05/target/debug/deps/librusoto_signature-d596d976cd5fa8c7.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/workspaces/ds655_ids721_miniproject05/week05/target/debug/deps/librusoto_signature-d596d976cd5fa8c7.rlib: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/workspaces/ds655_ids721_miniproject05/week05/target/debug/deps/rusoto_signature-d596d976cd5fa8c7.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs:

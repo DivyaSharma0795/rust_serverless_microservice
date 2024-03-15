@@ -1,0 +1,10 @@
+/workspaces/ds655_ids721_miniproject05/week05/target/release/deps/librusoto_signature-56bbd334f2782f6d.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/workspaces/ds655_ids721_miniproject05/week05/target/release/deps/librusoto_signature-56bbd334f2782f6d.rlib: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/workspaces/ds655_ids721_miniproject05/week05/target/release/deps/rusoto_signature-56bbd334f2782f6d.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/region.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/signature.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.46.0/src/stream.rs:

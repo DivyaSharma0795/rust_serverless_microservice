@@ -1,8 +1,32 @@
-# Ds655 Ids721 Miniproject05
+# IDS721 Mini Project 05
 
-
+## Serverless Rust Microservice
 
 ## Getting started
+
+### Setup Rust AWS Lambda function
+> Install the AWS CLI and configure it with your AWS credentials.
+
+> Install the Rust toolchain.
+
+> Create a new Rust project using `cargo new Project_Name`
+
+> Add the lambda_runtime and serde_json dependencies in your Cargo.toml file.
+
+```
+lambda_runtime = "0.3.0"
+serde_json = "1.0.64"
+rusoto_dynamodb = "0.46.0"
+rusoto_core = "0.46.0"
+```
+
+> Write a handler function in main.rs that will be invoked by AWS Lambda.
+
+> Build your Rust project using cargo build --release.
+
+
+
+
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
