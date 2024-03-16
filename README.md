@@ -106,6 +106,7 @@ use serde_json::Value;
 use rusoto_dynamodb::{DynamoDb, DynamoDbClient, PutItemInput};
 use rusoto_core::Region;
 ```
+![Name Reversal Lambda](<Screenshot 2024-03-15 at 22-15-10 Name_Reversal - Lambda.png>)
 
 ### Connect to a database
 
@@ -114,6 +115,10 @@ use rusoto_core::Region;
 ```
 aws dynamodb create-table --table-name names --attribute-definitions AttributeName=name,AttributeType=S --key-schema AttributeName=name,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
 ```
+
+![Table Details](<Screenshot 2024-03-15 at 22-21-12 View table Amazon DynamoDB Management Console DynamoDB us-east-2.png>)
+![Table Details 2](<Screenshot 2024-03-15 at 22-20-57 List tables Amazon DynamoDB Management Console DynamoDB us-east-2.png>)
+![Table DEtails 3](<Screenshot 2024-03-15 at 22-20-45 Items Amazon DynamoDB Management Console DynamoDB us-east-2.png>)
 
 2. Add the appropriate Rust database driver to your Cargo.toml file
 
