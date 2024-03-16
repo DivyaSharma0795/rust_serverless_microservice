@@ -1,4 +1,4 @@
-# IDS721 Mini Project 05
+# IDS721 Mini Project 05 - Divya Sharma (ds655)
 
 ## Serverless Rust Microservice
 
@@ -69,9 +69,8 @@ rusoto_core = "0.46.0"
 
 The handler function takes the name of the person and responds with the reverse of the name. For example if the name is "divya", the function output will be "ayvid".
 
-```rust
 
-6. Build your Rust project using cargo build --release.
+6. Build your Rust project using `cargo build --release`. The `--release` flag tells Cargo to build your project with optimizations. The resulting binary will be located at `target/release/week05`
 
 ```
 cargo build --release
@@ -94,32 +93,39 @@ aws lambda create-function --function-name my-function --zip-file fileb://target
 - The response will be a JSON payload containing the reversed name.
 
 2. Implement the service logic in a separate Rust module.
+```
+use rusoto_dynamodb::{DynamoDb, DynamoDbClient, PutItemInput};
+use rusoto_core::Region;
+```
 
 3. Use the service in your AWS Lambda handler function.
+```
+use week05::service::reverse_name;
+use lambda_runtime::{handler_fn, Context, Error};
+use serde_json::Value;
+use rusoto_dynamodb::{DynamoDb, DynamoDbClient, PutItemInput};
+use rusoto_core::Region;
+```
 
 ### Connect to a database
 
-1. Choose a database that suits your needs (e.g., Amazon RDS for a relational database).
+1. Choose a database that suits your needs - I have used AWS DynamoDB to store the names.
 
-2. Add the appropriate Rust database driver to your Cargo.toml file (e.g., diesel for PostgreSQL).
+```
+aws dynamodb create-table --table-name names --attribute-definitions AttributeName=name,AttributeType=S --key-schema AttributeName=name,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
+```
+
+2. Add the appropriate Rust database driver to your Cargo.toml file
+
+```
+rusoto_dynamodb = "0.46.0"
+rusoto_core = "0.46.0"
+```
 
 3. Implement database connection and query logic in your service.
 
-
-
-
-
-
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/dukeaiml/IDS721/ds655_ids721_miniproject05.git
-git branch -M main
-git push -uf origin main
+use rusoto_dynamodb::{DynamoDb, DynamoDbClient, PutItemInput};
+use rusoto_core::Region;
 ```
 
