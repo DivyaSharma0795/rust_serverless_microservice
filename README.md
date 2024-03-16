@@ -66,7 +66,10 @@ rusoto_core = "0.46.0"
 ```
 
 5. Write a handler function in main.rs that will be invoked by AWS Lambda.
-    
+
+The handler function takes the name of the person and responds with the reverse of the name. For example if the name is "divya", the function output will be "ayvid".
+
+```rust
 
 6. Build your Rust project using cargo build --release.
 
@@ -85,7 +88,10 @@ aws lambda create-function --function-name my-function --zip-file fileb://target
 
 1. Define the service interface, what it will do.
 
-
+- The service will provide an API endpoint that accepts a JSON payload containing a name.
+- Upon receiving a request, the service will store the received name in a database.
+- The service will then reverse the received name and return it in the response.
+- The response will be a JSON payload containing the reversed name.
 
 2. Implement the service logic in a separate Rust module.
 
